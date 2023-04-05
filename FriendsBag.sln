@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendsBag", "FriendsBag\FriendsBag.csproj", "{B91A2A0E-3F5C-4318-9476-50DB3BCE67F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendsBag.Data", "FriendsBag.Data\FriendsBag.Data.csproj", "{3EC226A1-53C0-469E-8FAC-C39F138E9205}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B91A2A0E-3F5C-4318-9476-50DB3BCE67F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91A2A0E-3F5C-4318-9476-50DB3BCE67F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91A2A0E-3F5C-4318-9476-50DB3BCE67F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91A2A0E-3F5C-4318-9476-50DB3BCE67F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC226A1-53C0-469E-8FAC-C39F138E9205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC226A1-53C0-469E-8FAC-C39F138E9205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC226A1-53C0-469E-8FAC-C39F138E9205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC226A1-53C0-469E-8FAC-C39F138E9205}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {107AEAF5-0109-4094-B24C-13E41CF032CB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,132 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Content/Pages/Invoice.js"></script>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+            <!-- left column -->
+            <div class="col-md-6" style="padding-top:40px!important">
+                <!-- general form elements -->
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Invoice</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <!-- form start -->
+                    <form>
+                        <div class="card-body" style="background-color: #eeede7 !important; ">
+                            <div class="form-group">
+                                <label for="exampleInputName">Customer_Id</label>
+                                <input type="text" class="form-control" id="txtId" placeholder="EnterCustomerId">
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputPrice">Item Name</label>
+                                <input type="text" class="form-control" id="txtItemName" placeholder="Enter Item Name">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">Amout</label>
+                                <input type="text" class="form-control" id="txtAmout" placeholder="Enter Amout">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputpassword">Discount</label>
+                                <input type="text" class="form-control" id="txtDiscount" placeholder="Enter Discount">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputpassword">Quntity</label>
+                                <input type="text" class="form-control" id="txtQuntity" placeholder="Enter Quntity">
+                            </div>
+                        </div>
+                        @*<div class="card-body">
+        <div class="form-group">
+             <label for="exampleInputFile">Photo</label>
+                 <div class="input-group">
+                     <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="File1">
+                        <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                     </div>
+                 </div>
+            </div>
+        </div>*@
+                        @*<div class="input-group-append">
+            <span class="input-group-text">Upload</span>
+        </div>*@
+                        <!--</div>
+    </div>-->
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">Total Amount</label>
+                                <input type="text" class="form-control" id="txtAmount" placeholder="Enter TotalAmount">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">InvoiceDate</label>
+                                <input type="date" id="txtDate" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">Payment_Mode</label>
+                                <input type="text" class="form-control" id="txtMode" placeholder="Enter Payment Mode">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">IGST</label>
+                                <input type="text" class="form-control" id="txtIGST" placeholder="Enter IGST">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">CGST</label>
+                                <input type="text" class="form-control" id="txtCGST" placeholder="Enter CGST">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">SGST</label>
+                                <input type="text" class="form-control" id="txtSGST" placeholder="Enter SGST">
+                            </div>
+                        </div>
+                        @*<div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>*@
+
+                        <!-- /.card-body -->
+                        @*<input type="button" value="submit" onclick="SaveItem()" />*@
+                        <div class="card-footer">
+                            <input type="button" value="submit" class="btn btn-primary" onclick="SaveInvoice()"/>
+                        </div>
+                    </form>
+                </div>
+                <!-- /.card -->
+                <!-- general form elements -->
+            </div>
+            <!--/.col (left) -->
+
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+</section>
+

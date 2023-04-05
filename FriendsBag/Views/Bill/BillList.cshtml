@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "BillList";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<h2>BillList</h2>
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Content/Pages/Bill.js"></script>
+
+<body>
+    <div class="container">
+        <div class="col-md-12">
+            <div class="col-md-6" style="padding-left:68.5px">
+                <table id="tblBill" class="table table-striped" border="1">
+                    <thead>
+                        <tr>
+                            <th>Bill_Id</th>
+                            <th>Customer_Name</th>
+                            <th>Item_Name</th>
+                            <th>Quantity</th>
+                            <th>Amount</th>
+                            <th>Total_Amount</th>
+                            <th>Invoice_No</th>
+                            <th>Date</th>
+                            <th>Payment_Mode</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>

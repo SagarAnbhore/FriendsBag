@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "ListInvoice";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<h2>ListInvoice</h2>
+
+<script src="~/Scripts/jquery-3.4.1.slim.min.js"></script>
+<script src="~/Content/Pages/Invoice.js"></script>
+<body>
+    <div class="container">
+        <div class="col-md-12">
+            <div class="col-md-6" style="padding-left:68.5px">
+                <table id="tbiInvoice" class="table" border="1">
+                    <thead>
+                        <tr>
+                            <th>Invoice_Id</th>
+                            <th>Customer_Id</th>
+                            <th>Item_Name</th>
+                            <th>Amout</th>
+                            <th>Discount</th>
+                            <th>Quntity</th>
+                            <th>Total_Amount</th>
+                            <th>Invoice_Date</th>
+                            <th>Payment_Mode</th>
+                            <th>IGST</th>
+                            <th>CGST</th>
+                            <th>SGST</th>
+                        </tr>
+                    </thead>
+                  <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>

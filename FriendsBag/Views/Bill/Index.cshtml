@@ -1,0 +1,123 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Content/Pages/Bill.js"></script>
+
+
+@*<label>Customer_Name</label>
+<input type="text" id="txtcname" class="form-control" placeholder="enter customer name"  />
+
+<label>Item_Name</label>
+<select type="text" id="txtitemname" class="form-control"></select>
+
+<label>Quantity</label>
+<input type="number" id="txtquantity" class="form-control" placeholder="enter quantity" />
+
+<label>Amount</label>
+<input type="text" id="txtamount" class="form-control" placeholder="enter amount" />
+
+<label>Total_Amount</label>
+<input type="text" id="txttotalamount" class="form-control" placeholder="enter total amount" />
+
+<label>Invoice_No</label>
+<input type="date" id="txtinvoiceno" class="form-control" placeholder="enter invoice no" />
+
+<label>Date</label>
+<input type="text" id="txtdate" class="form-control" placeholder="enter date" />
+
+<label>Payment_Mode</label>
+<input type="text" id="txtpaymentmode" class="form-control" placeholder="enter payment mode" />
+
+<input type="button" value="submit" class="btn btn-success" onclick="SaveBill()" />*@
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+            <!-- left column -->
+            <div class="col-md-6" style="padding-top:40px!important">
+                <!-- general form elements -->
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Bill</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <!-- form start -->
+                    <form>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputPrice">Bill_Id</label>
+                                <input type="text" class="form-control" id="hdnId" placeholder="Enter Bill_Id" />
+                            </div>
+                        </div>
+                        <div class="card-body" @*style="background-color: #eeede7 !important; "*@>
+                            <div class="form-group">
+                                <label for="exampleInputName">Customer_Name</label>
+                                <input type="text" class="form-control" id="txtcname" placeholder="enter customer name" />
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputPrice">Item_Name</label>
+                                <input type="text" class="form-control" id="txtitemname" placeholder="Enter Item_Name" />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">Quantity</label>
+                                <input type="text" class="form-control" id="txtquantity" placeholder="enter quantity" />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputpassword">Amount</label>
+                                <input type="text" class="form-control" id="txtamount" placeholder="enter amount" />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputpassword">Total_Amount</label>
+                                <input type="text" class="form-control" id="txttotalamount" placeholder="enter total amount" />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">Invoice_No</label>
+                                <input type="text" class="form-control" id="txtinvoiceno" placeholder="Enter Invoice_No" />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">Date</label>
+                                <input type="date" id="txtdate" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">Payment_Mode</label>
+                                <input type="text" class="form-control" id="txtpaymentmode" placeholder="enter payment mode" />
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-primary center-block" onclick="SaveBill()">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- /.card -->
+                <!-- general form elements -->
+            </div>
+            <!--/.col (left) -->
+
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+</section>

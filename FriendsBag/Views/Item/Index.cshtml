@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Content/Pages/Item.js"></script>
+
+<label>ItemName</label>
+<input type="text" class="form-control" placeholder="item name" id="txtItemN" />
+
+<label>ItemPirce</label>
+<input type="text" class="form-control" placeholder="item price" id="txtItemP" />
+
+<label>Discount</label>
+<input type="text" class="form-control" placeholder="discout" id="txtDiscout" />
+
+<label>Gender</label>
+<input type="text" class="form-control" placeholder="gender" id="txtGender" />
+
+<label>Image</label>
+<input type="file" class="form-control"  id="Fileselect" />
+
+<label>Colour</label>
+<input type="text" class="form-control" placeholder="colour" id="txtColour" />
+
+<label>Description</label>
+<input type="text" class="form-control" placeholder="description" id="txtDescription" />
+
+<label>Date</label>
+<input type="date" class="form-control" id="txtDate"  />
+
+<input type="button" class="btn btn-success" value="Submit" onclick="SaveItem()" />
+

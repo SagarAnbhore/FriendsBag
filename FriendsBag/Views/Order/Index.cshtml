@@ -1,0 +1,136 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/Scripts/jquery-3.4.1.slim.min.js"></script>
+<script src="~/Content/Pages/Order.js"></script>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+            <!-- left column -->
+            <div class="col-md-6" style="padding-top:40px!important">
+                <!-- general form elements -->
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Order</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <!-- form start -->
+                    <form>
+                        <div class="card-body" style="background-color: #eeede7 !important; ">
+                            <div class="form-group">
+                                <label for="exampleInputName">Invoicid</label>
+                                <input type="text" class="form-control" id="txtId" placeholder="EnterInvoicId">
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputPrice">Name</label>
+                                <input type="text" class="form-control" id="txtName" placeholder="Enter Name">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">MobileNo</label>
+                                <input type="text" class="form-control" id="txtMobileNo" placeholder="Enter MobileNo">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputpassword">Address</label>
+                                <input type="text" class="form-control" id="txtAddress" placeholder="Enter Address">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputpassword">City</label>
+                                <input type="text" class="form-control" id="txtCity" placeholder="Enter City">
+                            </div>
+                        </div>
+                        @*<div class="card-body">
+        <div class="form-group">
+             <label for="exampleInputFile">Photo</label>
+                 <div class="input-group">
+                     <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="File1">
+                        <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                     </div>
+                 </div>
+            </div>
+        </div>*@
+                        @*<div class="input-group-append">
+            <span class="input-group-text">Upload</span>
+        </div>*@
+                        <!--</div>
+    </div>-->
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">colour</label>
+                                <input type="text" class="form-control" id="txtColour" placeholder="Enter colour">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">Price</label>
+                                <input type="text" class="form-control" id="txtPrice" placeholder="Enter Price">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">PaymentMode</label>
+                                <input type="text" class="form-control" id="txtPaymentMode" placeholder="Enter PaymentMode">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">DeliveryData</label>
+                                <input type="date" id="txtDeliveryDate" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">TotalAmount</label>
+                                <input type="text" class="form-control" id="txtTotalAmount" placeholder="Enter TotalAmount">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">OrderNotes</label>
+                                <input type="text" class="form-control" id="txtOrderNotes" placeholder="Enter OrderNotes">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputDiscount">Item</label>
+                                <select type="text" class="form-control" id="ddlItem" placeholder="Enter Item"></select>
+                            </div>
+                        </div>
+                        @*<div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>*@
+
+                        <!-- /.card-body -->
+                        @*<input type="button" value="submit" onclick="SaveItem()" />*@
+                        <div class="card-footer">
+                            <input type="button" value="submit" class="btn btn-primary" onclick="SaveOrder()" />
+                        </div>
+                    </form>
+                </div>
+                <!-- /.card -->
+                <!-- general form elements -->
+            </div>
+            <!--/.col (left) -->
+
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+</section>
+
